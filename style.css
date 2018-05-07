@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+
+
+body{
+  background-color: #a9d7d1;
+  text-align: center;
+  font-family: 'Varela Round', sans-serif;
+  min-width: 320px;
+  font-size:17px;
+}
+#title {
+  font-size:35px;
+  font-weight:900;
+}
+#main-body {
+  background-color: #FAFAFA;
+  margin:auto;
+  border-radius: 8px;
+  max-width: 900px;
+  padding: 15px;
+}
+.left{
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  vertical-align: top;
+  padding:15px 5px 15px 15px;
+  margin-top:7px;
+}
+.right{
+   display: inline-block;
+  text-align: left;
+  width: 45%;
+  vertical-align: middle;
+  padding:15px 15px 15px 0px;
+}
+.inputfield{
+  height:25px;
+  padding:5px;
+  font-size:13px;
+}
+.dropdown{
+  height:40px;
+  padding:10px;
+  width: 150px;
+  font-size:15px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+ul{
+  list-style: none;
+}
+#preferences {
+  margin-left:-40px;
+  line-height:2.1;
+  margin-top:1px;
+}
+#recommend{
+  margin-left:-40px;
+  line-height:2.1;
+  margin-top:1px;
+}
+button {
+  background-color:#G11E1H;
+  border-radius:7px;
+  height:44px;
+  font-size:22px;
+  padding:7px;
+}
+button:hover{
+  background-color:#006871;
+ cursor:pointer;   
+}
+@media(max-width:500px){
+ .inputfield {
+  height:20px;
+  padding:2px;
+  font-size:11px;
+   width:125px;
+  }
+}
